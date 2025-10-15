@@ -1,35 +1,62 @@
 @import "../node_modules/line-awesome/dist/line-awesome/css/line-awesome.min.css";
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-
+@layer components {
+  .gradient-text {
+    @apply bg-gradient-to-r titleHeading bg-clip-text text-transparent transition duration-200 ease-in-out cursor-pointer;
+  }
+  .gradient-text:hover {
+    @apply titleHeading;
+  }
+}
 
 body {
-	/* Use a soft white background with black text by default; preserve dark-mode overrides */
-	@apply bg-white text-black dark:bg-background-dark dark:text-[#fcf8fa];
-	font-family: 'Poppins', system-ui, -apple-system, 'Segoe UI', Roboto, "Helvetica Neue", Arial, sans-serif;
+  /* Use a soft white background with black text by default; preserve dark-mode overrides */
+  @apply bg-white text-black dark:text-[#fcf8fa];
+  font-family: "Poppins", system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
 }
 
 /* Line Awesome imported from package */
 
 /* Brand hover styles for footer icons */
 .hover-whatsapp:hover {
-	color: #25D366 !important; /* WhatsApp green */
+  color: #25d366 !important; /* WhatsApp green */
 }
 
 /* Instagram gradient text on hover */
 .hover-ig-gradient {
-	transition: color 200ms ease, opacity 200ms ease;
+  transition: color 200ms ease, opacity 200ms ease;
 }
 .hover-ig-gradient:hover {
-	background: linear-gradient(45deg,#feda75 0%,#fa7e1e 25%,#d62976 50%,#962fbf 75%,#4f5bd5 100%);
-	-webkit-background-clip: text;
-	background-clip: text;
-	-webkit-text-fill-color: transparent;
+  background: linear-gradient(
+    45deg,
+    #feda75 0%,
+    #fa7e1e 25%,
+    #d62976 50%,
+    #962fbf 75%,
+    #4f5bd5 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
+.titleHeading {
+  color: #ceb08e;
+}
+.bg-candleGold {
+	  background-color: #F0EEEB;
+}
 
+.bg-icon {
+	background-color: #C6AC8F;
+}
 
+.bg-footer {
+	background-color: #F0EEEB;
+}
