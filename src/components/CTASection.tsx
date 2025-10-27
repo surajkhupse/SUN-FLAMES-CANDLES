@@ -2,7 +2,7 @@ import React from 'react';
 
 const CTASection: React.FC = () => {
   return (
-    <section className="py-12">
+    <section className="py-6">
       <div className="max-w-4xl mx-auto px-6">
         <div className="flex flex-col justify-end gap-6 px-4 py-10 @[480px]:gap-8 @[480px]:px-10 @[480px]:py-20 text-center rounded-lg">
           <div className="flex flex-col gap-4">

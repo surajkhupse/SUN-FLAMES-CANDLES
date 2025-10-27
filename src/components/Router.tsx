@@ -6,6 +6,8 @@ import AboutUs from "../components/AboutUs";
 import CTASection from "../components/CTASection";
 import CategoryPage from "../components/CategoryPage";
 import ContactPage from "../components/ContactPage";
+import ArtOfCandleMaking from "./ArtOfCandleMaking";
+import ArtOfScent from "./ArtOfScent";
 
 export default function AppRouter() {
   return (
@@ -18,6 +20,8 @@ export default function AppRouter() {
             <HeroSection />
             <CollectionGrid />
             {/* <AboutUs /> */}
+            <ArtOfCandleMaking />
+            <ArtOfScent />
             <CTASection />
           </>
         }
