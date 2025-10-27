@@ -1,0 +1,10 @@
+# Allow all crawlers to access everything
+User-agent: *
+Allow: /
+
+# Block certain folders (optional)
+Disallow: /admin/
+Disallow: /private/
+
+# Sitemap (important for SEO)
+Sitemap: https://sunandflamescandles.in/sitemap.xml
