@@ -11,7 +11,7 @@ export default function ArtOfCandleMaking({
   title = "The Art of Candle Making",
   children = (
     <>
-      Each Aura candle is a testament to the art of traditional craftsmanship. We pour every candle by hand,
+      Each sun and flames candles candle is a testament to the art of traditional craftsmanship. We pour every candle by hand,
       blending our unique fragrances with natural soy wax. This meticulous, step-by-step process ensures a clean,
       long-lasting burn and an unparalleled scent experience.
     </>

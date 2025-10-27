@@ -14,7 +14,7 @@ type Props = {
 
 export default function ArtOfScent({
   title = "The Art of Scent",
-  description = `At AURA LUMINARE, we believe that scent is an art form. Our candles are meticulously crafted with the finest, ethically sourced ingredients to create complex, captivating fragrances that transform your space and elevate your moments.`,
+  description = `At Sun and Flames Candles, we believe that scent is an art form. Our candles are meticulously crafted with the finest, ethically sourced ingredients to create complex, captivating fragrances that transform your space and elevate your moments.`,
   images = [
     {
       url: "https://lh3.googleusercontent.com/aida-public/AB6AXuBzXPmwdo5VAr0T4nHSzLl-5JdYdKMPqqWvkfCVRt443mG1WVakkKhMnauFbC8Afsw3STPgWAvtbjDKTHONaSY-a3AnIdf8P1ryO1k5lMEEDBA57WQxo6JWt337RZuIkxy2RD-bIi_84u0OyCjJga0P0NlMep8tNUGOAqDhKWVMMikAi3RulUYoSd4KNTJGX0dCnqjbqOzfy39mWuqvn8PT-eXeSB1PsiRlotdjyTHXfLQFoii6gyP7w1G8-VrZE8g48NqbviCbfg",
