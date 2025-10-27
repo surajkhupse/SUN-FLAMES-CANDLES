@@ -1,4 +1,8 @@
 import React, { useMemo, useState } from 'react';
+import img1 from '../assets/img1.jpeg';
+import img2 from '../assets/img2.jpeg';
+import img3 from '../assets/img3.jpeg';
+import img4 from '../assets/img4.jpeg';
 
 export type Item = {
   id: string | number;
@@ -14,12 +18,12 @@ type Props = {
 
 const CollectionGrid: React.FC<Props> = ({ items = [] }) => {
   const fallback: Item[] = [
-    { id: 'jar', title: 'Jar Candles', image: '/src/assets/img1.jpeg', alt: 'Jar candle', category: 'Jar' },
-    { id: 'tealight', title: 'Tea-light', image: '/src/assets/img2.jpeg', alt: 'Tea-light', category: 'Tea-light' },
-    { id: 'Flora\'s', title: 'Florals', image: '/src/assets/img3.jpeg', alt: 'Florals', category: 'Florals' },
-    { id: 'pillar', title: 'Pillar Candles', image: '/src/assets/img4.jpeg', alt: 'Pillar candle', category: 'Pillar' },
-    { id: 'votive', title: 'Votive Candles', image: '/src/assets/img3.jpeg', alt: 'Votive candle', category: 'Votive' },
-    { id: 'gifts', title: 'Gift Sets', image: '/src/assets/img2.jpeg', alt: 'Gift set', category: 'Gift Set' },
+    { id: 'jar', title: 'Jar Candles', image: img1, alt: 'Jar candle', category: 'Jar' },
+    { id: 'tealight', title: 'Tea-light', image: img2, alt: 'Tea-light', category: 'Tea-light' },
+    { id: 'Flora\'s', title: 'Florals', image: img3, alt: 'Florals', category: 'Florals' },
+    { id: 'pillar', title: 'Pillar Candles', image: img4, alt: 'Pillar candle', category: 'Pillar' },
+    { id: 'votive', title: 'Votive Candles', image: img3, alt: 'Votive candle', category: 'Votive' },
+    { id: 'gifts', title: 'Gift Sets', image: img2, alt: 'Gift set', category: 'Gift Set' },
     
   ];
 
