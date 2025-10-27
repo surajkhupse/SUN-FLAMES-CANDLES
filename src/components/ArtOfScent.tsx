@@ -1,5 +1,4 @@
 // ArtOfScent.tsx
-import React from "react";
 
 type ScentImage = {
   url: string;
